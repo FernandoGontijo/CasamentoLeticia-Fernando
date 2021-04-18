@@ -60,6 +60,13 @@
     background: #000 !important;
 }
 
+.btn-lista{
+    background-color:coral ;
+    font-family: varela;
+    text-align: justify;
+    color: black;
+    
+}
 
 
 .fundo {
