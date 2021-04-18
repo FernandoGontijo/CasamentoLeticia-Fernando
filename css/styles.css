@@ -1,0 +1,371 @@
+/*Fontes*/
+
+@font-face
+{
+    font-family: Courgette;
+    src: url('../fonts/Courgette-Regular.ttf');
+}
+
+
+@font-face
+{
+    font-family: sacramento;
+    src: url('../fonts/Sacramento-Regular.ttf');
+}
+
+
+@font-face
+{
+    font-family: dacing;
+    src: url('../fonts/DancingScript-VariableFont_wght.ttf');
+}
+
+
+@font-face
+{
+    font-family: varela;
+    src: url('../fonts/VarelaRound-Regular.ttf');
+}
+
+
+
+
+
+
+
+/*Navbar*/
+
+
+
+.navbar{
+	width: 100%;
+	position: fixed;
+	top:0px;
+	text-align: center;
+	transition: .5s;
+    background-color: transparent !important;
+}
+.navbar ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 50px;
+	color: white;
+	font-size: 24px;
+	font-family: sans-serif;
+	cursor: pointer;
+	border-radius: 10px;
+}	
+
+.bg-dark.scrolled {
+    background: #000 !important;
+}
+
+
+
+.fundo {
+
+    background-image: url(../images/Home.JPG);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header-site{
+    background-image: url(../images/Home.JPG);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    perspective: 2px;
+    height: 600px;
+    width: auto;
+}
+
+
+.header-site-2{
+    background-image: url(../images/segunda.JPG);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    perspective: 2px;
+    height: 700px;
+    width: auto;
+}
+
+.header-site-3{
+    background-image: url(../images/presente.jpeg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    perspective: 2px;
+    height: 700px;
+    width: auto;
+}
+
+.texto {
+    padding-top: 30px ;
+    font-size: 20px;
+    font-family: varela;
+    text-align: justify;
+    color: black;
+    
+}
+
+.texto-titulo {
+    padding-top: 80px ;
+    padding-bottom: 30px ;
+    font-size: 80px;
+    font-weight:500;
+    font-family:dacing;
+    text-align: center;
+    color: black;
+    
+}
+
+
+/*CountDown*/
+
+.timer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 1000px;
+    height: 370px;
+    margin:auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.timer .flipdown{
+    margin: auto;
+    text-align: center;
+}
+
+.timer h1{
+    text-align: center;
+    font-size: 80px;
+    color: black;
+    margin-bottom: 20px;
+    font-family: dacing;
+
+}
+
+.timer h4{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: dacing;
+    margin-top: 20px;
+    
+}
+
+
+
+/*Rodapé*/
+
+.texto-rodape {
+    padding: 30px;
+    font-size: 15px;
+    margin-bottom: 1.5em;
+    line-height: 1.4em;
+    font-family: varela;
+    text-align: center;
+    color: white;
+    
+}
+
+.rodape {
+   background-color: black;
+}
+
+
+/*Responsividade*/
+
+
+
+@media (min-width: 576px) {
+
+}
+
+
+
+
+
+@media (max-width: 576px) {
+    .header-site{
+        background-image: url(../images/presente.jpeg);
+        background-position: center ;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        perspective: 2px;
+        height: 500px;
+        width: auto;
+    }
+    
+    
+    .header-site-2{
+        background-image: url(../images/alianca.JPG);
+        background-position: center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        perspective: 2px;
+        height: 400px;
+        width: auto;
+    }
+
+
+
+    .timer{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 800px;
+        height: 300px;
+        margin:auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    .timer .flipdown{
+        margin: auto;
+        text-align: center;
+    }
+    
+    .timer h1{
+        text-align: center;
+        font-size: 60px;
+        color: black;
+        margin-bottom: 20px;
+        font-family: dacing;
+    
+    }
+    
+    .timer h4{
+        text-align: center;
+        font-size: 35px;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: dacing;
+        margin-top: 20px;
+        
+    }
+
+.navbar{
+	width: 100%;
+	position: fixed;
+	top:0px;
+	text-align: left;
+	transition: .5s;
+}
+
+.texto {
+    padding-top: 45px ;
+    font-size: 18px;
+    font-family: varela;
+    text-align:justify;
+    color: black;
+    
+}
+
+.texto-titulo {
+    padding-top: 50px ;
+    padding-bottom: 25px ;
+    font-size: 60px;
+    font-weight:500;
+    font-family:dacing;
+    text-align: center;
+    color: black;
+    
+}
+
+
+.formulario-recados{
+    background: white; 
+    padding: 5px;
+}
+
+.formulario-alinhamento-esquerda{
+    text-align: initial;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+    
+ 
+ }
+
+
+
+
+
+.container img {
+    max-width:1000px;
+    max-height:1200px;
+    width: auto;
+    height: auto;
+
+}
+
+
+.recado-campos{
+
+    outline-width: 0ch;
+    width: 100%;
+    background-color:#e9ecef;
+    border: thick;
+    padding: 8px;
+
+}
+
+.botao-publicar{
+    background-color:slategrey;
+    border: thick;
+    border-radius: 10%;
+    font-family:varela;
+    width: 120px;
+    height: 40px;
+    color: snow;
+    font-size: 20px;
+    
+}
+
+
+.formulario-recados{
+    background: white; 
+    padding: 50px;
+}
+
+
+.formulario-alinhamento-esquerda{
+    text-align: initial;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+.formulario-alinhamento-direita{
+    text-align:right;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+.recados-publicados {
+    font-family: varela;
+}
+
+
+
+
+/*Animação*/
+
+
+
+

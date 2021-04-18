@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width,initial-scale=1' />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+
+    <title>Letícia e Fernando</title>
+    
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/flipdown.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css.map">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css.map">   
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css.map">    
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css.map">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css.map">    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+
+
+
+  </head>
+  <body>
+
+    <div class="container-fluid w-100" style="background:whitesmoke;">
+
+            <nav class="navbar  fixed-top navbar-expand-lg  navbar-light bg-light  navbar-toggler" id="nav">
+                <div class="mx-auto d-sm-flex d-block flex-sm-nowrap ">
+                    
+                    <button  class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#navbarSite">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+            
+                <div class="collapse navbar-collapse text-align" id="navbarSite">
+            
+                    <ul class="navbar-nav mr-auto">
+            
+                    <li class="nav-item">
+                        <a  href="#home" class="nav-link">Home</a>
+                    </li>
+            
+                    <li class="nav-item">
+                        <a href="#historia" class="nav-link">Nossa História</a>
+                    </li>
+            
+                    <li class="nav-item">
+                        <a href="#cerimonia" class="nav-link">Cerimônia</a>
+                    </li>
+            
+                    <li class="nav-item">
+                        <a href="#presente" class="nav-link" >Lista de Presentes</a>
+                    </li>
+            
+                    <li class="nav-item">
+                        <a href="#recados" class="nav-link" >Recados</a>
+                    </li>
+            
+            
+                    </ul>
+            
+                </div>
+            
+                </div>
+            </nav>
+
+     <section>
+
+
+
+
+
+    <div id="home" class="header-site w-100 ">
+          
+    </div>
+
+
+
+    <div class=" timer w-100">
+        <h1>Faltam</h1>
+        <div id="flipdown" class="flipdown"></div>
+        <h4>para o Grande Dia...</h4>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let timer_ = 1635622200;
+            let flipdown = new FlipDown(timer_)
+            .start()
+            .ifEnded(() =>{
+                document.querySelector(".flipdown").innerHTML = '<h2>Timer ended</h2>';
+            })
+        })
+    </script>  
+
+
+</section>
+
+
+<section>
+
+
+    <div class="container " >
+
+        <p class="texto"  style="padding-bottom: 80px;"> Criamos esse site para compartilhar com vocês um pouquinho da nossa história e os detalhes da organização do nosso casamento. Estamos muito felizes e contamos com a presença de todos no nosso grande dia!
+        <br>  <br>Ah, é necesário realizar a confirmação da sua presença. Para isto contamos com sua ajuda clicando no menu "Confirme sua Presença" e preenchendo os dados necessários.
+        <br>  <br>Aqui vocês encontrarão também nossa Lista de Presentes! Agradecemos desde já o carinho!
+        Um beijo e até o grande dia!</p>
+    </div>
+    
+
+    <div class="header-site-2 w-100">
+          
+    </div>
+
+
+</section>
+     
+
+<section>
+
+
+    <div class="container " >
+
+
+        <h1 id="historia" class="texto-titulo">Nossa História</h1>
+
+        <p class="texto"> Nos conhecemos há 2 anos e 7 meses em uma missão da Comunidade Católica Filhos da Misericórdia. Dali começamos a conversar, conhecendo mais um ao outro, e fomos percebendo as qualidades que nos agradavam e que a companhia um do outro era muito agradável.  
+        <br>  <br>Então no dia 10/11/2018 ele me pediu em namoro, e a partir desse dia começamos a construir nossa história juntos, e sempre tendo o olhar voltado para o que mais importa. Desde o início já sabíamos o propósito do namoro que era o casamento, e que bom que Deus nos deu a sabedoria de caminharmos até aqui, conhecer os defeitos, as qualidades, as fraquezas e a fortaleza de cada um. 
+        <br>  <br>Enfim, com muita alegria que estamos há alguns passos desse sacramento tão belo e tão importante, e queremos contar com as orações de cada um de vocês que são tão especiais para nós.</p>
+    </div>
+    
+
+
+</section>
+
+
+
+
+<section>
+
+    <h1 id="cerimonia" class="texto-titulo">Cerimônia</h1>
+
+
+    
+    <div class="container ">
+
+        <div style="text-align: center;">
+
+            <img src="images/matriz2.jpg" class="w-100" >
+
+        </div>
+       
+        <div >
+
+            <p class="texto" style="text-align: center !important; ">Nossa união será abençoada diante de Deus!
+            <br>A cerimônia será rápida, por isso contamos com a presença e pontualidade de vocês!
+            <br>Dia 30 de Outubro de 2021, às 20:30 HS.</p>
+    
+       
+    
+
+    </div>
+
+</section>
+
+  
+<section>
+
+
+
+
+<h1 id="presente" class="texto-titulo" >
+    Lista de Presentes
+</h1>
+
+
+
+
+<p class="texto" style="text-align: center !important; ">Nos criamos uma Lista de Presentes Virtual para aqueles que desejam nos ajudar a construir este sonho.
+    <br>Para ser redirecionado para a Lista de Presentes  <a href="https://www.querodecasamento.com.br/lista-de-casamento/fernando-sousa-gontijo-leticia-robeiro-rodrigues/" target="_blank">Clique Aqui</a></p>   
+  
+
+    
+</section>
+
+<section>
+
+
+    <h1 id="recados" class="texto-titulo">Recados</h1>
+
+
+
+    <div  class="container-fluid  ">
+
+
+        <div class="container jumbotron" align="center">
+
+
+
+
+            <form class="formulario-recados form-group card" action="https://api.staticforms.xyz/submit" method="POST"> 
+
+
+                <input type="hidden" name="accessKey" value="60b8b671-036b-4fc6-b406-a131032f31c4">
+                <input type="hidden" name="redirectTo" value="https://www.casamentoleticiaefernando.com/">
+ 
+
+                <p class="formulario-alinhamento-esquerda">
+                 <label for="nome" class="texto" style="text-align: left;"> Seu nome</label>  <br>
+                     <input class="recado-campos" type="text" size="30" name="name"autocomplete="off"> 
+                 </p>   
+             
+                     
+             <p class="formulario-alinhamento-esquerda">
+                 <label for="email" class="texto" style="text-align: left;"> Email</label>  <br>
+                     <input class="recado-campos"  type="email" size="30" name="email" autocomplete="off"> 
+                 </p>       
+ 
+ 
+                 <p class="formulario-alinhamento-esquerda">
+                 <label for="recados" class="texto" style="text-align: left;"> Recado </label>  <br>
+                     <textarea class="recado-campos"  cols="40" rows="5" name="message"> </textarea>
+                 </p>   
+ 
+ 
+             <p class="formulario-alinhamento-direita"> 
+                 <button class="botao-publicar" name="btnEnviar" id="teste">Publicar</button>
+             </p>  
+ 
+ 
+         </form>
+  
+      </div>
+
+    </div>
+
+
+</section>
+
+
+
+            <footer class="rodape">
+                <p class="texto-rodape">
+                    Copyright © 2021 | Fernando Gontijo 
+                </p>
+            </footer>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+      <script src="js/flipdown.js"></script>
+      <script src="js/bootstrap.bundle.js"></script>
+      <script src="js/bootstrap.bundle.js.map"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js.map"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/bootstrap.js.map"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/bootstrap.min.js.map"></script>
+
+  <script>
+      $(window).scroll(function(){
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 450);
+
+        if(document.getElementById("nav").classList.contains('scrolled')){
+
+            console.log('entrou');
+
+            $('nav').removeClass('navbar-light');
+            $('nav').removeClass('bg-light');
+            $('nav').addClass('navbar-dark');
+            $('nav').addClass('bg-dark');
+               
+        } else {
+          
+            console.log('saiu');   
+            $('nav').removeClass('navbar-dark');
+            $('nav').removeClass('bg-dark');
+            $('nav').addClass('navbar-light');
+            $('nav').addClass('bg-light');
+            
+
+        }
+        });
+  </script>
+  </body>
+</html>
+
