@@ -38,8 +38,12 @@
     resize: none;
     color: black;
     background-color: white;
-   -webkit-text-fill-color: #880000;
-   opacity: 1; /* required on iOS */
+
+
+   -webkit-text-fill-color: rgba(0, 0, 0, 1);
+    -webkit-opacity: 1; 
+    background: white;
+
   }
 
 
