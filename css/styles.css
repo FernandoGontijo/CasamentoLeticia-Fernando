@@ -38,7 +38,8 @@
     resize: none;
     color: black;
     background-color: white;
-    overflow: auto;
+   -webkit-text-fill-color: #880000;
+   opacity: 1; /* required on iOS */
   }
 
 
