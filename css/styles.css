@@ -450,8 +450,10 @@ p {
   text-align: center !important;
   -webkit-text-fill-color: rgba(0, 0, 0, 1);
   opacity: 1;
-  background-color: -internal-light-dark(rgba(239, 239, 239, 0.3), rgba(59, 59, 59, 0.3));
+
 }
+
+input.preco-total-item:disabled {color:rgba(239, 239, 239, 0.3);}
 
 .valores-barra {
   width: 100% !important;
