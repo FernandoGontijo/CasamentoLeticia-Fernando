@@ -207,7 +207,7 @@
     
     
     .header-site-2{
-        background-image: url(../images/alianca.JPG);
+        background-image: url(../images/montagem.jpg);
         background-position: center ;
         background-repeat: no-repeat;
         background-size: cover;
@@ -217,6 +217,17 @@
         width: auto;
     }
 
+
+    .header-site-3{
+        background-image: url(../images/montagem.jpg);
+        background-position: center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        perspective: 2px;
+        height: 400px;
+        width: auto;
+    }
 
 
     .timer{
