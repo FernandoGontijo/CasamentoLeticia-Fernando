@@ -218,7 +218,8 @@
     }
 
 
-    .montagemFoto{
+    .montagem{
+        background-image: url(../images/montagem.jpg);
         background-position: center ;
         background-repeat: no-repeat;
         background-size: cover;
