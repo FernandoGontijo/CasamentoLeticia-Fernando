@@ -86,7 +86,7 @@
 }
 
 
-.header-site-2{
+.montagem{
     background-image: url(../images/segunda.JPG);
     background-position: center top;
     background-repeat: no-repeat;
@@ -207,7 +207,7 @@
     
     
     .header-site-2{
-        background-image: url(../images/montagem.jpg);
+        background-image: url(../images/alianca.JPG);
         background-position: center ;
         background-repeat: no-repeat;
         background-size: cover;
@@ -218,7 +218,7 @@
     }
 
 
-    .header-site-3{
+    .montagem{
         background-image: url(../images/montagem.jpg);
         background-position: center ;
         background-repeat: no-repeat;
