@@ -31,6 +31,16 @@
 
 /*Navbar*/
 
+.montagem{
+    background-image: url(../images/montagem.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    perspective: 2px;
+    height: 400px;
+    width: auto;
+}
 
 
 .navbar{
@@ -82,18 +92,6 @@
     background-attachment: fixed;
     perspective: 2px;
     height: 600px;
-    width: auto;
-}
-
-
-.montagem{
-    background-image: url(../images/janela.jpg);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    perspective: 2px;
-    height: 700px;
     width: auto;
 }
 
@@ -218,16 +216,7 @@
     }
 
 
-    .montagem{
-        background-image: url(../images/montagem.jpg);
-        background-position: center ;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: scroll;
-        perspective: 2px;
-        height: 400px;
-        width: auto;
-    }
+
 
 
     .timer{
